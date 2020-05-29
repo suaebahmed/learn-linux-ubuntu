@@ -3,17 +3,17 @@
 - *super user do! (sudo)*
 - *Advanced Packaging Tool (APT)*
 
-There are various tools that interact with APT and allow you to install, remove and manage packages in Debian based Linux distributions. apt-get is one such command-line tool which is widely popular. Another popular tool is Aptitude with both GUI and command-line options.
+    There are various tools that interact with APT and allow you to install, remove and manage packages in Debian based Linux distributions. apt-get is one such command-line tool which is widely popular. Another popular tool is Aptitude with both GUI and command-line options.
 
 
-It became common to see apt install package instead of the usual apt-get install package. Eventually, many other distributions followed Ubuntu’s footsteps and started to encourage users to use apt instead of apt-get.
+    It became common to see apt install package instead of the usual apt-get install package. Eventually, many other distributions followed Ubuntu’s footsteps and started to encourage users to use apt instead of apt-get.
 
 * **Sorry,Ubuntu 20.04 has experienced an internal error**
-*ExecutablePath:* 
-/usr/libexec/tracker-miner-fs 
- 
-*solution:* 
-sudo gedit /etc/default/apport
+    *ExecutablePath:* 
+    /usr/libexec/tracker-miner-fs 
+    
+    *solution:* 
+    sudo gedit /etc/default/apport
 
 
 
