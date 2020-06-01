@@ -15,8 +15,16 @@
     *solution:* 
     sudo gedit /etc/default/apport
 
-
-
+* **Run fsck manually**
+```sh
+(initramfs) fsck /dev/sda3
+# then ? y and y
+```
+* **busyBox v1.30.1**
+```sh
+# find out i would be: sda1,sda2,sda3,sda4,sda6
+(initramfs) fsck.ext4 /dev/sda5  
+```
 
 * **download and install visual studio code**:
 ``` sh
