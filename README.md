@@ -51,6 +51,20 @@ $ nvm install XX.xx.x
 ```sh
 $ sudo apt-get install git
 ```
+* **install postman**:
+```sh
+$ sudo snap install postman
+```
+* **install kazam**:
+```sh
+$ sudo apt-get install kazam
+```
+* **install codeblocks**
+```sh
+$ sudo add-apt-repository ppa:damien-moore/codeblocks-stable
+$ sudo apt-get update
+$ sudo apt-get install codeblocks
+```
 
 * **install xampp**:
 ```sh

@@ -4,21 +4,21 @@
 $ sudo chmod 777 /htdocs
 ```
 * **Vim textEditor tutorial**
-i => insert mode 
-Esc => to commend mode 
-: => to commend pass 
+    i => insert mode 
+    Esc => to commend mode 
+    : => to commend pass 
 
-wq => write and quit 
-q=> quit
+    wq => write and quit 
+    q=> quit
 
-j => to go bottom line
-k => to go top line
-h => to go left charactar
-l => to go right charactar
+    j => to go bottom line
+    k => to go top line
+    h => to go left charactar
+    l => to go right charactar
 
-shift + 4 => to go end line
-p => paste line
-d => delet line
+    shift + 4 => to go end line
+    p => paste line
+    d => delet line
 
 * **Create file:**
 
