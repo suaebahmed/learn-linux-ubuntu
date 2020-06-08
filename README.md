@@ -70,9 +70,9 @@ $ sudo apt-get install codeblocks
 ```sh
 #  go to apache website and download ubunto file
 $ ls
-$ chmod +x XamppName.run
+$ chmod +x sodu ./xampp-linux-x64-7.4.6-0-installer.run
 $ ls
-$ sudo ./XamppName.run
+$ sudo sodu ./xampp-linux-x64-7.4.6-0-installer.run
 # setup mannually --go to application and folder
 
 # to run go $ cd /opt/lampp/
