@@ -2,23 +2,25 @@
 
 ```sh
 $ sudo chmod 777 /htdocs
+# every read/wirte/execute -R recursively
+$ sudo chmod 777 -R /opt/lampp/htdocs/php/admin/images
 ```
 * **Vim textEditor tutorial**
-    i => insert mode 
-    Esc => to commend mode 
-    : => to commend pass 
+    i => insert mode <br>
+    Esc => to commend mode <br>
+    : => to commend pass <br>
 
-    wq => write and quit 
-    q=> quit
+    wq => write and quit <br>
+    q=> quit<br>
 
-    j => to go bottom line
-    k => to go top line
-    h => to go left charactar
-    l => to go right charactar
+    j => to go bottom line<br>
+    k => to go top line<br>
+    h => to go left charactar<br>
+    l => to go right charactar<br>
 
-    shift + 4 => to go end line
-    p => paste line
-    d => delet line
+    shift + 4 => to go end line<br>
+    p => paste line<br>
+    d => delet line<br>
 
 * **Create file:**
 
