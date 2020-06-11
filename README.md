@@ -78,6 +78,9 @@ $ sudo sodu ./xampp-linux-x64-7.4.6-0-installer.run
 # to run go $ cd /opt/lampp/
 $ ls
 $ sudo ./manager-linux-x64.run
+#to uninstall xampp:
+$ sudo ./uninstall
+$ sudo rm –r /opt/lamp
 ```
 
 * **web Development setup on Ubuntu 20.04** 
@@ -94,5 +97,20 @@ $ sudo gedit /etc/apache2/mods-available/dir.conf
 
 # to restart server
 $ sudo service apache2 restart
+
+```
+* **laravel setup on ubuntu using Xampp**
+```sh
+$ sudo gedit /etc/environment
+#PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp/bin/php"
+$ sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
+$ sudo /opt/lampp/lampp start
+$ sudo apt-get install curl
+$ curl https://getcomposer.org/installer | php
+#move the file to /usr..
+$ sudo mv composer.phar /usr/local/bin/composer
+
+#composer create-project --prefer-dist laravel/laravel blog
+php artisan serve
 
 ```
