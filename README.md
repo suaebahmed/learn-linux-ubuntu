@@ -61,6 +61,19 @@ $ sudo apt-get install kazam
 ```
 * **install codeblocks**
 ```sh
+$ sudo add-apt-repository ppa:codeblocks-devs/release
+# if you have a older version: $ sudo apt update
+$ sudo apt install codeblocks codeblocks-contrib
+##---------Uninstall------
+# To remove the PPA repository,
+# either go to Software & Updates -> Other Software,
+# or run command in terminal
+$ sudo add-apt-repository --remove ppa:codeblocks-devs/release
+# And remove Code::Blocks if you want via command:
+$ sudo apt remove --autoremove codeblocks codeblocks-contrib
+
+#----------- another way to install -----------------------
+
 $ sudo add-apt-repository ppa:damien-moore/codeblocks-stable
 $ sudo apt-get update
 $ sudo apt-get install codeblocks
