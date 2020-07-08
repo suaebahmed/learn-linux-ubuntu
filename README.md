@@ -1,4 +1,8 @@
-
+# windows 10 CodeBlocks GNC not found
+    ```sh
+    #download MinGW Installer
+    #setting > compilar > toolchain-executable > auto-detect
+    ```sh
 * **Difference Between apt and apt-get Explained:**
 - *super user do! (sudo)*
 - *Advanced Packaging Tool (APT)*
